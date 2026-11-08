@@ -1,0 +1,46 @@
+{
+  "source": "scikit-learn load_breast_cancer",
+  "dataset": "Breast Cancer Wisconsin Diagnostic",
+  "rows": 569,
+  "features": 30,
+  "positive_class": "malignant",
+  "target_mapping": {
+    "benign": 0,
+    "malignant": 1
+  },
+  "variant": "variation",
+  "selected_model": "Support vector machine",
+  "selection_metric": "ten-fold cross-validated ROC AUC on training data",
+  "best_cv_roc_auc": 0.9956244566792234,
+  "best_parameters": {
+    "model__C": 10.0,
+    "model__gamma": 0.01
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 10,
+  "test_metrics": {
+    "accuracy": 0.9824561403508771,
+    "sensitivity_recall": 0.9523809523809523,
+    "specificity": 1.0,
+    "precision": 1.0,
+    "f1": 0.975609756097561,
+    "roc_auc": 0.9970238095238095,
+    "average_precision": 0.9957983193277311,
+    "brier_score": 0.016689557236704403,
+    "true_negatives": 72,
+    "false_positives": 0,
+    "false_negatives": 2,
+    "true_positives": 40,
+    "confusion_matrix": [
+      [
+        72,
+        0
+      ],
+      [
+        2,
+        40
+      ]
+    ]
+  }
+}

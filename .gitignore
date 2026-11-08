@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+
+# Entornos virtuales de Python
+/.venv/
+/venv/
+/env/
+/Proyecto2/
